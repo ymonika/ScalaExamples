@@ -1,0 +1,17 @@
+group 'basicexamples'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'scala'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.12.0-M5'
+    compile 'com.typesafe.zinc:zinc:0.3.11'
+    testCompile "org.scala-lang:scala-library:2.12.0-M5"
+
+}
